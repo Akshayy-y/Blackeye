@@ -42,43 +42,26 @@ cd multi-phishing-tool
 chmod +x phishingtool.sh
 🖥️ Usage
 Run the tool:
-
 bash
 Copy
 Edit
 ./phishingtool.sh
-
 Follow the on-screen menu to:
-
 Select phishing targets
-
 Start tunnels with Ngrok or Cloudflared
-
 Monitor captured credentials in real-time
-
 💡 Requirements
 Linux-based system (Kali, Ubuntu, Parrot OS)
-
 Apache2
-
 PHP
-
 Curl
-
 Unzip
-
 Ngrok (auto-installed if missing)
-
 Cloudflared (optional)
-
 🔒 Disclaimer
 This tool is for educational purposes only.
-
 Unauthorized phishing is illegal.
-
 Only use this tool in authorized lab environments with proper consent.
-
 The creator is not responsible for any misuse or illegal activity.
-
 ✅ Credits
 Inspired by tools like Zphisher, built from scratch to support ethical hacking education and personal skill development.
