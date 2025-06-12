@@ -2,20 +2,13 @@
 Multi-Phishing Tool
 Welcome to Multi-Phishing Tool v1.0, a customizable, multi-site phishing simulation tool inspired by frameworks like Zphisher.
 This tool is designed strictly for ethical hacking courses, penetration testing labs, and cybersecurity awareness training.
-
 🚀 Features
 🎯 Multi-option phishing targets (Instagram, Google)
-
 🌐 Live phishing links via Ngrok or Cloudflared tunnels
-
 🖥️ Real-time credential capture and monitoring
-
 🎨 Terminal-based colorful interface
-
 🔁 Auto-restarting loop and multi-session handling
-
 ⚙️ Dependency auto-installer
-
 📂 Folder Structure
 text
 Copy
